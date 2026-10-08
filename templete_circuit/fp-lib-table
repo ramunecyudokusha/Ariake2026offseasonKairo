@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TCAN3414DDFR") (type "KiCad") (uri "C:/Users/ichim/Documents/GitHub/Ariake2026offseasonKairo/footprints/ul_PTCAN3414DDFR/KiCADv6/footprints.pretty") (options "") (descr ""))
+)

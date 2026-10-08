@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "137a2926-0212-488e-88c8-bdc9310450b2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 69.85 38.1)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4ebd5c8f-13b9-4518-b25a-cc68192ff7cc")
+		(property "Sheetname" "tcan"
+			(at 69.85 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tcan3414ddfr.kicad_sch"
+			(at 69.85 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "can_tx" input
+			(at 69.85 41.91 180)
+			(uuid "98b77b6d-4b1c-43d2-aa39-2b25cd4136c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "can_rx" input
+			(at 69.85 45.72 180)
+			(uuid "61845d73-b052-420e-89e2-114fd0c4a4c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "templete_circuit"
+				(path "/137a2926-0212-488e-88c8-bdc9310450b2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 60.96)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d785934a-d9e3-4201-a953-b18ed0f5d040")
+		(property "Sheetname" "level_change"
+			(at 69.85 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "level_change.kicad_sch"
+			(at 69.85 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3_signal" input
+			(at 69.85 63.5 180)
+			(uuid "18879961-4700-4feb-8cf7-12a7a43b9981")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5_signal" output
+			(at 82.55 66.04 0)
+			(uuid "82b5d5a1-01d4-48bc-8662-45c489ebf351")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "templete_circuit"
+				(path "/137a2926-0212-488e-88c8-bdc9310450b2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
