@@ -237,11 +237,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.5,
+          "diameter": 0.6,
           "drill": 0.3
         },
         {
@@ -546,7 +542,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gabr/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -670,7 +666,7 @@
         "uuid": "739fb8c7-c057-4f6e-9660-d4abbd8ab41a"
       }
     ],
-    "used_designators": "#PWR1-8,J1-3,R1-7,C1-7,Q1-4,U1",
+    "used_designators": "J2,J4,#FLG1,R6-12,C8-11,D1,#PWR9-10,Q1-9",
     "variants": []
   },
   "sheets": [
