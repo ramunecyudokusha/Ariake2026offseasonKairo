@@ -1545,172 +1545,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -2001,6 +1835,160 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SM6T27A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM6T27A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMB"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 27Vrwm, DO-214AA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMB*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SM6T27A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM6T27A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2973,6 +2961,12 @@
 		(uuid "05b5e9dd-dbb6-40cb-88e0-8282996d2c2e")
 	)
 	(junction
+		(at 53.34 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06a4c091-0f81-4971-abd5-5c10244e0ec3")
+	)
+	(junction
 		(at 139.7 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3021,6 +3015,18 @@
 		(uuid "1dee04f3-1111-40f5-9741-8c198361061f")
 	)
 	(junction
+		(at 67.31 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e6a6bf3-a4d4-4dc8-a9cb-e57c68b645ef")
+	)
+	(junction
+		(at 36.83 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "204cc235-5a86-42db-90d9-7e65ecf8b885")
+	)
+	(junction
 		(at 228.6 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3057,12 +3063,6 @@
 		(uuid "5db75548-1449-4101-9265-a53f89951a61")
 	)
 	(junction
-		(at 45.72 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61cca2c2-7356-4fa5-8428-2f6e93c04808")
-	)
-	(junction
 		(at 140.97 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3087,12 +3087,6 @@
 		(uuid "727a2bc9-5e85-40e6-b8f6-667e1a1e07cd")
 	)
 	(junction
-		(at 53.34 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "728d6adb-9e42-41da-8924-8bedb3a56c75")
-	)
-	(junction
 		(at 83.82 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3103,6 +3097,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77e54148-2737-45d0-a52f-fe9c6a6b20c0")
+	)
+	(junction
+		(at 36.83 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81ecee22-6f6f-4ddb-8ab8-65beb08c6e63")
 	)
 	(junction
 		(at 222.25 110.49)
@@ -3135,6 +3135,12 @@
 		(uuid "a0e385ac-807e-42e8-a1a8-447cad3748d1")
 	)
 	(junction
+		(at 53.34 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5f9a0bd-e50c-4a26-b4e4-d82d02315200")
+	)
+	(junction
 		(at 213.36 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3163,12 +3169,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1e866b3-9a26-460a-9bb2-f423efb08fa3")
-	)
-	(junction
-		(at 45.72 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca346c46-7323-46f8-a727-3db7fc686462")
 	)
 	(junction
 		(at 130.81 73.66)
@@ -3201,12 +3201,6 @@
 		(uuid "e1c908db-db44-4320-8070-6ce2ce461cbc")
 	)
 	(junction
-		(at 36.83 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4913c09-af3d-46fa-a9d7-0c8463d2ae0a")
-	)
-	(junction
 		(at 147.32 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3223,12 +3217,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7632a3e-a203-45ea-8c9e-19231e50cf33")
-	)
-	(junction
-		(at 36.83 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e828d561-f5a1-4ca8-b480-be196844888e")
 	)
 	(junction
 		(at 127 124.46)
@@ -3298,6 +3286,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 71.12) (xy 45.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08945116-7336-4d89-9d25-9e4aba5ff4ea")
+	)
+	(wire
+		(pts
 			(xy 123.19 86.36) (xy 134.62 86.36)
 		)
 		(stroke
@@ -3335,6 +3333,16 @@
 			(type default)
 		)
 		(uuid "0c3b114c-1ea5-4a8f-8096-d58ae3a76d73")
+	)
+	(wire
+		(pts
+			(xy 36.83 71.12) (xy 39.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c53e11f-7c4e-4cbe-b59e-dc2873d3b861")
 	)
 	(wire
 		(pts
@@ -3578,7 +3586,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 66.04) (xy 45.72 50.8)
+			(xy 53.34 66.04) (xy 53.34 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3648,6 +3656,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 71.12) (xy 36.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da8b4eb-0a2a-421a-a21e-96fc40742ebc")
+	)
+	(wire
+		(pts
 			(xy 208.28 135.89) (xy 228.6 135.89)
 		)
 		(stroke
@@ -3675,16 +3693,6 @@
 			(type default)
 		)
 		(uuid "44be0673-60a8-49e4-b5aa-5e273fb22079")
-	)
-	(wire
-		(pts
-			(xy 36.83 71.12) (xy 36.83 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e008b3-e6a5-4c09-9000-07e504eb03d5")
 	)
 	(wire
 		(pts
@@ -3838,6 +3846,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 64.77) (xy 39.37 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572b3583-cfbc-42bf-ac3c-18c1657f14fc")
+	)
+	(wire
+		(pts
 			(xy 222.25 110.49) (xy 222.25 114.3)
 		)
 		(stroke
@@ -3848,6 +3866,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 82.55) (xy 67.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5876a005-c793-4a32-8234-3a3620d8dac9")
+	)
+	(wire
+		(pts
 			(xy 147.32 78.74) (xy 149.86 78.74)
 		)
 		(stroke
@@ -3855,16 +3883,6 @@
 			(type default)
 		)
 		(uuid "593cc8ce-f164-44ee-8618-cb8f733a8ca1")
-	)
-	(wire
-		(pts
-			(xy 45.72 50.8) (xy 53.34 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59891ae4-fd78-453f-b2cf-7e7ceda96900")
 	)
 	(wire
 		(pts
@@ -3988,6 +4006,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 50.8) (xy 67.31 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd5848d-b4e4-4b5a-8f92-0bf191b80c7c")
+	)
+	(wire
+		(pts
 			(xy 241.3 91.44) (xy 241.3 114.3)
 		)
 		(stroke
@@ -4098,16 +4126,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 64.77) (xy 58.42 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81a302c0-df45-4abc-ae1d-a3b4c3b4399c")
-	)
-	(wire
-		(pts
 			(xy 80.01 82.55) (xy 67.31 82.55)
 		)
 		(stroke
@@ -4178,16 +4196,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 50.8) (xy 67.31 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92484d8a-6ad2-4787-a0b2-44e416737604")
-	)
-	(wire
-		(pts
 			(xy 198.12 116.84) (xy 204.47 116.84)
 		)
 		(stroke
@@ -4238,6 +4246,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 64.77) (xy 36.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f58217f-879a-467c-9f56-b81f7a71e8be")
+	)
+	(wire
+		(pts
 			(xy 191.77 116.84) (xy 193.04 116.84)
 		)
 		(stroke
@@ -4268,6 +4286,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 50.8) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e0f831-cd42-475c-b111-9ba522c0eb89")
+	)
+	(wire
+		(pts
 			(xy 191.77 114.3) (xy 198.12 114.3)
 		)
 		(stroke
@@ -4275,16 +4303,6 @@
 			(type default)
 		)
 		(uuid "a29b87d8-1c0e-4c04-b467-171019188b92")
-	)
-	(wire
-		(pts
-			(xy 36.83 71.12) (xy 38.1 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5a7859c-e4f8-498f-bd98-18d761d45304")
 	)
 	(wire
 		(pts
@@ -4318,7 +4336,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 76.2) (xy 45.72 82.55)
+			(xy 53.34 76.2) (xy 53.34 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4378,16 +4396,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 82.55) (xy 52.07 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aae3618f-0f89-429b-bb33-e39bc718c7a0")
-	)
-	(wire
-		(pts
 			(xy 86.36 114.3) (xy 83.82 114.3)
 		)
 		(stroke
@@ -4428,16 +4436,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 64.77) (xy 36.83 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af05fcc8-5fe8-4bf5-aae0-8ec631981ab7")
-	)
-	(wire
-		(pts
 			(xy 213.36 104.14) (xy 213.36 110.49)
 		)
 		(stroke
@@ -4445,6 +4443,16 @@
 			(type default)
 		)
 		(uuid "af19eca2-d360-4f7f-8d1f-90e8757f4812")
+	)
+	(wire
+		(pts
+			(xy 44.45 64.77) (xy 58.42 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af56c643-5645-4590-a12c-6ddb8347d38e")
 	)
 	(wire
 		(pts
@@ -4505,16 +4513,6 @@
 			(type default)
 		)
 		(uuid "b2181543-d515-4452-b574-da4c9d3894f9")
-	)
-	(wire
-		(pts
-			(xy 52.07 82.55) (xy 67.31 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b49c3107-23de-4b44-aaab-17bec2353f73")
 	)
 	(wire
 		(pts
@@ -4798,7 +4796,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 82.55) (xy 45.72 82.55)
+			(xy 36.83 82.55) (xy 53.34 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4938,16 +4936,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 50.8) (xy 67.31 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f31e67-ff6f-45cb-a024-05c90de0bfce")
-	)
-	(wire
-		(pts
 			(xy 113.03 121.92) (xy 113.03 111.76)
 		)
 		(stroke
@@ -5018,7 +5006,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 50.8) (xy 45.72 50.8)
+			(xy 30.48 50.8) (xy 53.34 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5065,6 +5053,16 @@
 			(type default)
 		)
 		(uuid "fa79e759-436a-42b2-9504-fdde15e16299")
+	)
+	(wire
+		(pts
+			(xy 67.31 50.8) (xy 67.31 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa861500-f77f-4389-8757-c1ba20c62358")
 	)
 	(wire
 		(pts
@@ -5290,88 +5288,6 @@
 			(project "moterdriver_test_v1"
 				(path "/739fb8c7-c057-4f6e-9660-d4abbd8ab41a"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 87.63 45.72 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d6dc555-3fda-4391-93c1-6ab7bbb33e0b")
-		(property "Reference" "D1"
-			(at 90.17 44.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 90.17 46.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 87.63 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 87.63 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "118edb86-8e27-4bf0-9a9a-92196b5c4946")
-		)
-		(pin "2"
-			(uuid "4ff5be54-3e72-476d-9d6f-def227dfb039")
-		)
-		(instances
-			(project "moterdriver_test_v1"
-				(path "/739fb8c7-c057-4f6e-9660-d4abbd8ab41a"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6411,6 +6327,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 41.91 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5eda8d8b-50b9-4067-8353-75faf9a688a9")
+		(property "Reference" "R15"
+			(at 41.91 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 41.91 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 41.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 41.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "23b94616-bee6-42fc-8cb3-6d465d6167a5")
+		)
+		(pin "1"
+			(uuid "0cfc4ea0-8755-47a8-901e-b8908f0b7e52")
+		)
+		(instances
+			(project "moterdriver_test_v1"
+				(path "/739fb8c7-c057-4f6e-9660-d4abbd8ab41a"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 246.38 64.77 0)
 		(unit 1)
@@ -6567,6 +6562,88 @@
 			(project "moterdriver_test_v1"
 				(path "/739fb8c7-c057-4f6e-9660-d4abbd8ab41a"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM6T27A")
+		(at 87.63 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f67d928-203b-45ef-8a97-2d88cdb53997")
+		(property "Reference" "D2"
+			(at 90.17 44.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ26A"
+			(at 90.17 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 82.55 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
+			(at 87.63 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 27Vrwm, DO-214AA"
+			(at 87.63 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "073a10be-d773-4249-924f-b50c1152d883")
+		)
+		(pin "1"
+			(uuid "b8b9f1ca-a062-4037-b543-3073981046c4")
+		)
+		(instances
+			(project "moterdriver_test_v1"
+				(path "/739fb8c7-c057-4f6e-9660-d4abbd8ab41a"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7051,8 +7128,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 43.18 71.12 0)
-		(mirror x)
+		(at 50.8 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7062,7 +7138,7 @@
 		(dnp no)
 		(uuid "8c94cabc-eb65-46ba-bc0f-87aba0fb42ea")
 		(property "Reference" "Q5"
-			(at 49.53 72.3901 0)
+			(at 57.15 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7073,7 +7149,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GDS"
-			(at 46.99 68.58 0)
+			(at 54.61 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7084,7 +7160,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 48.26 73.66 0)
+			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7095,7 +7171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 71.12 0)
+			(at 50.8 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7106,7 +7182,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 43.18 71.12 0)
+			(at 50.8 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7136,7 +7212,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 50.8 0)
+		(at 72.39 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7147,7 +7223,7 @@
 		(fields_autoplaced yes)
 		(uuid "8caceeb4-2f9f-4ca8-abd6-857a8b14907b")
 		(property "Reference" "#PWR02"
-			(at 53.34 57.15 0)
+			(at 72.39 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7158,7 +7234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 55.88 0)
+			(at 72.39 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7168,7 +7244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 50.8 0)
+			(at 72.39 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7179,7 +7255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 50.8 0)
+			(at 72.39 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7190,7 +7266,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 50.8 0)
+			(at 72.39 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7454,6 +7530,85 @@
 			(project "moterdriver_test_v1"
 				(path "/739fb8c7-c057-4f6e-9660-d4abbd8ab41a"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 41.91 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "981f9a1f-66bb-4480-95a8-de2c5d775430")
+		(property "Reference" "R14"
+			(at 41.91 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 41.91 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 41.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 41.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dfbd9aec-79ff-49e4-8058-c35b27a41d61")
+		)
+		(pin "1"
+			(uuid "a701f72d-2ebf-426f-aff1-6b268bfe3bcd")
+		)
+		(instances
+			(project "moterdriver_test_v1"
+				(path "/739fb8c7-c057-4f6e-9660-d4abbd8ab41a"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8105,7 +8260,6 @@
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
 		(at 64.77 71.12 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8115,7 +8269,7 @@
 		(dnp no)
 		(uuid "ca73f478-a27d-45dc-bf34-957d0194f15c")
 		(property "Reference" "Q6"
-			(at 71.12 72.3901 0)
+			(at 71.12 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8126,7 +8280,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GDS"
-			(at 69.85 68.58 0)
+			(at 69.85 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8137,7 +8291,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 69.85 73.66 0)
+			(at 69.85 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
