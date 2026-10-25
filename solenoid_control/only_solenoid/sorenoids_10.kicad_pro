@@ -130,22 +130,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.2,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.28,
-        "min_hole_to_hole": 0.45,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -195,15 +195,15 @@
       ],
       "track_widths": [
         0.0,
-        0.127,
-        0.254,
         0.3,
-        0.508,
         0.6,
-        0.635,
-        1.0,
+        0.8,
         1.27,
-        2.54
+        2.54,
+        2.75,
+        3.0,
+        5.08,
+        6.35
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -237,20 +237,20 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
-          "drill": 0.3
-        },
-        {
           "diameter": 0.5,
           "drill": 0.3
         },
         {
-          "diameter": 1.0,
-          "drill": 0.8
+          "diameter": 0.9,
+          "drill": 0.6
         },
         {
-          "diameter": 1.27,
-          "drill": 0.72
+          "diameter": 1.0,
+          "drill": 0.6
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -471,7 +471,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -511,14 +510,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "moter_upgrade_boardv1.kicad_pro",
+    "filename": "sorenoids_10.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -545,14 +544,10 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
-      "netlist": "moter_upgrade_boardv1.net",
-      "plot": "",
-      "pos_files": "",
-      "specctra_dsn": "../freerouting_test/third.dsn",
-      "step": "moter_upgrade_boardv1.step",
-      "svg": "",
+      "netlist": "",
+      "plot": "gabr/",
+      "specctra_dsn": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -625,32 +620,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "説明",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "リファレンス"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -681,33 +658,57 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "moter_upgrade_boardv1.kicad_sch",
-        "name": "moter_upgrade_boardv1",
-        "uuid": "6bf60173-cb9a-476d-aff4-9536bb9f9010"
+        "filename": "sorenoids_10.kicad_sch",
+        "name": "sorenoids_10",
+        "uuid": "459c60dd-ce08-4bba-8bb5-bf584ba149a7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Q1,Q3-8,Q16,J4,H1-32",
     "variants": []
   },
   "sheets": [
     [
-      "6bf60173-cb9a-476d-aff4-9536bb9f9010",
-      "moter_upgrade_boardv1"
+      "459c60dd-ce08-4bba-8bb5-bf584ba149a7",
+      "sorenoids_10"
+    ],
+    [
+      "2f9ae96f-0433-4fc0-bed5-110e90756a17",
+      "sore1"
+    ],
+    [
+      "77e8ab97-3cba-4d17-9519-78e2529ff25b",
+      "sore2"
+    ],
+    [
+      "6c990d24-5d39-402b-a4e3-ff80ca794308",
+      "sore3"
+    ],
+    [
+      "5edd5874-3cbf-4ad0-8d3a-0405ac68a266",
+      "sore4"
+    ],
+    [
+      "e570df9b-844f-408d-9be2-c3a769f90e17",
+      "sore5"
+    ],
+    [
+      "e97bc5ae-db52-4392-9399-fd434906ab19",
+      "sore6"
+    ],
+    [
+      "7b95ac73-2b1d-48b7-aac0-c4d6d3157316",
+      "sore7"
+    ],
+    [
+      "da7682eb-3c94-41da-a8c7-7dcf9eddeef3",
+      "sore8"
     ]
   ],
   "text_variables": {},
